@@ -1,6 +1,8 @@
 # Linear-Regression
 Evaluating Linear Regression problems:
+- Multivariable Regression:
+  - Predict London House Prices
 
-- Movies Revenue vs Movies Budget
-
-- LSD vs Math test performance
+- Simple Regression:
+  - Movies Revenue vs Movies Budget
+  - LSD vs Math test performance
