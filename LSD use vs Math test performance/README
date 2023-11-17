@@ -1,1 +1,8 @@
+Evaluating LSD use vs Math test performance
 
+-Database: csv file
+-PreProcessing: modifying the data frame
+-Visualization: matplotlib
+-Training Regression Model:scikitlearn
+-Training metrics: theta0,theta1,R²
+-Plotting regression with scatter points
