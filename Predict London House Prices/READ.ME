@@ -1,12 +1,12 @@
 Predicting London House Prices - Full Analysis
 
 - database: csv 
-- Pre-processing and Data exploration: heed,tail,info,count,isnull,isna,columns.
-- Data Visualization: matplotlib (hist,bar,scatter) ; seaborn(displot,heatmap,joinplot,lmplot,)
-- Features:..., Dummy(binário)
+- Pre-processing and Data exploration
+- Data Visualization: matplotlib & seaborn
+- Features
 - Statistics: describe,min,max,median,mean
-- Correlation: [-1,1] Correlação não é indicativo de causa.  .corr() (Pearson correlation- variável contínua, não pode ser dummy)
-- Analyzing patterns between features (correlations); outliers not good!
+- Correlation: [-1,1] Correlação não é indicativo de causa.  .corr() (Pearson correlation)
+- Analyzing patterns between features (correlations)
 - Training & Test Dataset: features vs target 
 - Regression metrics/performance NORMAL PRICES 
 - Model Evaluation: Statistical analysis (R², p values of coefficients, VIF, Bayesian info
@@ -15,3 +15,7 @@ Predicting London House Prices - Full Analysis
 - Regression using LOG PRICES
 - Analyzing p values and coefficients - stats model api. p- values <0.05 estatísticamente significante (no relation between variables). Remover
 - Testing Multicolinearidade- VIF: Linear Regression for each FEATURE, VIFf=1/(1-R²f)
+- Using root of RMSE to analyze predictive power off the model!
+
+*distplot has been deprecated
+*load_boston also is not available in sklearn
